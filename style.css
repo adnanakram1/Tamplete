@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* assential css */
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.text-start{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+
+/* header css */
+.header {
+    background: #48dbfb;
+}
+.header-left{
+    width: 30%;
+}
+.header-left img {
+    width: 90px;
+}
+.header-right{
+    width: 70%;
+}
+.header-right ul {
+    list-style: none;
+}
+.header-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.header-right ul li a:hover {
+    background: #0abde3;
+}
+
+/* Banner css */
+
+.banner {
+    background: url(./image/nick-torontali-Y4WN7Eq2AsA-unsplash.jpg) center no-repeat;
+    padding: 190px 0;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner-content{}
+.banner-content h2 {
+    background: #1dd1a1;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.banner-content p {
+    background: #00d2d3;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* service css */
+.services {
+    padding: 40px 0;
+}
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.service-item {
+    width: 31.33%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #0000005e;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+.service-item span {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: #c8d6e5;
+    line-height: 45px;
+    border-radius: 50px 50px 50px 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.service-item:hover span {
+    color: yellow;
+    background: black;
+}
+.service-item h3{}
+.service-item p{}
+
+/* footer css */
+.footer {
+    background: #222f3e;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left {
+    width: 50%;
+}
+.footer-left p {
+    line-height: 35px;
+}
+.footer-right {
+    width: 50%;
+    text-align: right;
+}
+.footer-right ul{}
+.footer-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-right ul li a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: #ee5253;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 0 10px 0;
+    font-size: 20px;
+    color: navy;
+}
+
